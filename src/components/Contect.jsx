@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Contact = () => {
+const Contect = () => {
     const contactList = [
         { type: "Email", value: "yourname@example.com" },
         { type: "Phone", value: "010-1234-5678" },
