@@ -1,22 +1,18 @@
 import './App.css'
-import Button from './components/Button'
-import Input from './components/Input'
+import Counter from './components/Counter'
+import Exam1 from './components/Exam1'
+import Exam2 from './components/Exam2'
+import Exam3 from './components/Exam3'
+
+const user = { name: "김짱구", age: 2 }
 
 function App() {
   return (
     <div>
-      <Button text={'메일'} color={'red'} />
-      <Button text={'카페'} color={'blue'} />
-      <Button text={'블로그'} color={'green'} />
-      <Button text={'기본값'} />
-
-      <Button text={'자식요소'} color={'yellow'} >
-        <strong>
-          어라라..?
-        </strong>
-      </Button>
-
-      <Input title={'제목입니다.'} placeholder={"플레이스 홀더 입니다."} />
+      <Counter />
+      <Exam1 name={user.name} age={user.age} />
+      <Exam2 />
+      <Exam3 />
     </div>
   )
 }
