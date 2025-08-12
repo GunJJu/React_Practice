@@ -1,17 +1,11 @@
 import './App.css'
-import Hero from './components/Hero'
-import Contect from './components/Contect'
-import Aboutme from './components/Aboutme'
-import Skills from './components/Skills'
+import Counter from './components/Counter'
 
 
 function App() {
   return (
     <div>
-      <Hero />
-      <Aboutme />
-      <Contect />
-      <Skills />
+      <Counter />
     </div>
   )
 }
