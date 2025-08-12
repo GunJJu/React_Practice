@@ -18,7 +18,7 @@ const Counter = () => {
     const initailState = { count: 0 }
     const [state, dispatch] = useReducer(reducer, initailState)
     return (
-        <div>
+        <div className='main'>
             <p>Count : {state.count} </p>
             <div className="btn-wrap">
                 <button onClick={() => dispatch({ type: "decrement" })}>-</button>
